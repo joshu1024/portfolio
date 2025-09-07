@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, useScroll, AnimatePresence } from "framer-motion";
-import { Code2, Sun, Moon, Menu, X } from "lucide-react";
+import { Code2, Sun, Moon, Menu, X, HomeIcon } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
 
 const Navbar = () => {
@@ -67,8 +67,13 @@ const Navbar = () => {
           whileHover={{ scale: 1.05 }}
           className="flex items-center space-x-2"
         >
-          <Code2 size={24} className="text-blue-500" />
-          <span className="text-lg ml-1">Time to program</span>
+          <HomeIcon size={24} className="text-blue-500" />
+          <span
+            onClick={() => scrollToSection("home")}
+            className="text-sm cursor-pointer tracking-wider text-gray-400 uppercase ml-1 font-medium"
+          >
+            Joshua Kipamet
+          </span>
         </motion.div>
 
         {/* Desktop Nav */}
