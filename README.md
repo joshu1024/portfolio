@@ -53,7 +53,7 @@ Contributing
 Feel free to open issues or submit pull requests for improvements!
 
 Contact
-You can reach me at: [joshuakipamet@.com]
+You can reach me at: joshuakipamet@.com
 Or find me on LinkedIn | GitHub
 
 Thank you for visiting my portfolio repository!
