@@ -18,7 +18,7 @@ import {
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
-import PROJECT_IMG_1 from "../assets/images/project1.png";
+import PROJECT_IMG_1 from "../assets/images/project1.PNG";
 import PROJECT_IMG_2 from "../assets/images/project2.PNG";
 
 export const SKILLS_CATEGORY = [
