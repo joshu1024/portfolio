@@ -275,7 +275,7 @@ const AboutSection = () => {
                     onClick={() => scrollToSection("contact")}
                     whileHover={{ y: -2, scale: 1.05 }}
                     whileTap={{ scale: 0.98 }}
-                    className="bg-blue-500 hover:bg-blue-600 rounded-full px-8 py-3 text-sm uppercase tracking-widest font-medium transition-all duration-300"
+                    className="bg-blue-500 cursor-pointer hover:bg-blue-600 rounded-full px-8 py-3 text-sm uppercase tracking-widest font-medium transition-all duration-300"
                   >
                     Let's Work Together
                   </motion.button>

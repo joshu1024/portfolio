@@ -303,7 +303,7 @@ const HeroSection = () => {
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => scrollToSection("work")}
-                  className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
+                  className="bg-blue-500 cursor-pointer hover:bg-blue-600 text-white px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
                 >
                   View Work
                 </motion.button>
@@ -311,7 +311,7 @@ const HeroSection = () => {
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => scrollToSection("contact")}
-                  className={`border ${
+                  className={`border cursor-pointer ${
                     isDarkMode
                       ? "bg-gray-700 hover:border-gray-600 text-gray-300"
                       : "bg-gray-300 hover:border-gray-400 text-gray-700"
@@ -340,7 +340,7 @@ const HeroSection = () => {
                     key={index}
                     href={social.href}
                     whileHover={{ sclae: 1.1, y: -3 }}
-                    className={`p-3 rounded-full transition-colors ${
+                    className={`p-3 cursor-pointer rounded-full transition-colors ${
                       isDarkMode
                         ? "text-gray-400 hover:text-white hover:bg-gray-800"
                         : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"

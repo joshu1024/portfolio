@@ -200,7 +200,7 @@ const ContactSection = () => {
                   : "bg-gray-50/80 border-gray-200 backdrop-blur-sm"
               }`}
             >
-              <h3 className="text-2xl font-medium mb-8">Send me a message</h3>
+              <h3 className="text-2xl font-medium mb-8 ">Send me a message</h3>
 
               <div className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
@@ -239,7 +239,7 @@ const ContactSection = () => {
                   disabled={isSubmitting}
                   whileHover={{ y: -2, scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full bg-blue-500 hover:bg-blue-600 disabled:bg-blue-400 text-white py-4 rounded-xl text-sm uppercase tracking-widest font-medium transition-all duration-300 flex items-center justify-center space-x-2"
+                  className="w-full cursor-pointer bg-blue-500 hover:bg-blue-600 disabled:bg-blue-400 text-white py-4 rounded-xl text-sm uppercase tracking-widest font-medium transition-all duration-300 flex items-center justify-center space-x-2"
                   onClick={handleSubmit}
                   type="submit"
                 >
@@ -296,7 +296,7 @@ const ContactSection = () => {
                   onClick={() => handleScheduleCall()}
                   whileHover={{ y: -2, scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
-                  className={`px-6 py-3 rounded-full border font-medium transition-all ${
+                  className={`px-6 cursor-pointer py-3 rounded-full border font-medium transition-all ${
                     isDarkMode
                       ? "border-gray-600 hover:border-blue-500 hover:text-blue-400"
                       : "border-gray-300 hover:border-blue-500 hover:text-blue-600"

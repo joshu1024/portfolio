@@ -77,7 +77,7 @@ const Navbar = () => {
         </motion.div>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-8 ">
           {["Home", "Skills", "Work", "About", "Contact"].map((item) => {
             const lowerItem = item.toLowerCase();
             const isActive = activeSection === lowerItem;
@@ -87,7 +87,7 @@ const Navbar = () => {
                 key={item}
                 whileHover={{ y: -2 }}
                 onClick={() => scrollToSection(lowerItem)}
-                className={`text-sm uppercase tracking-wider transition-colors border-b-2 ${
+                className={`text-sm cursor-pointer uppercase tracking-wider transition-colors border-b-2 ${
                   isDarkMode
                     ? isActive
                       ? "text-white border-blue-500"
