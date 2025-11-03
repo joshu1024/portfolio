@@ -20,6 +20,7 @@ import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 import PROJECT_IMG_1 from "../assets/images/project1.PNG";
 import PROJECT_IMG_2 from "../assets/images/project2.PNG";
+import ecom from "../assets/images/ecom.PNG";
 
 export const SKILLS_CATEGORY = [
   {
@@ -30,6 +31,7 @@ export const SKILLS_CATEGORY = [
       { name: "React", level: 80, color: "bg-blue-500" },
       { name: "Tailwind CSS", level: 80, color: "bg-cyan-500" },
       { name: "Framer Motion", level: 70, color: "bg-pink-500" },
+      { name: "Redux ToolKit", level: 80, color: "bg-cyan-500" },
     ],
   },
   {
@@ -83,10 +85,31 @@ export const PROJECTS = [
     title: "AI Image Background Remover",
     description:
       "A MERN-based web app that uses AI to intelligently remove backgrounds from images, enabling seamless editing and exporting.",
-    image: PROJECT_IMG_2, // Replace with actual image import or reference
+    image: PROJECT_IMG_2,
     tags: ["MERN", "AI", "ClipDrop", "React", "Node.js"],
-    liveUrl: "https://bg-remover-xi-brown.vercel.app/", // Replace with actual live URL
+    liveUrl: "https://bg-remover-xi-brown.vercel.app/",
     githubUrl: "https://github.com/joshu1024/bg-remover",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 3,
+    title: "MERN E-Commerce App",
+    description:
+      "A full-stack E-Commerce application built with the MERN stack, featuring secure authentication, product management, cart and checkout flow, PayPal integration, and an admin dashboard for a complete online shopping experience.",
+    image: ecom,
+    tags: [
+      "MERN",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redux Toolkit",
+      "PayPal",
+    ],
+    liveUrl:
+      "https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/",
+    githubUrl: "https://github.com/joshu1024/mern-ecommerce",
     featured: true,
     category: "Full Stack",
   },
