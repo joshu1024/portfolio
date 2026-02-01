@@ -33,6 +33,7 @@ export const SKILLS_CATEGORY = [
       { name: "CSS", level: 85, color: "bg-pink-500" },
       { name: "HTML", level: 90, color: "bg-pink-500" },
       { name: "Redux ToolKit", level: 80, color: "bg-cyan-500" },
+      { name: "Framer Motion", level: 70, color: "bg-pink-500" },
     ],
   },
   {
