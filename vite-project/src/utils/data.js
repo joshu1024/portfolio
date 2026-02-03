@@ -20,6 +20,7 @@ import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 import PROJECT_IMG_1 from "../assets/images/project1.PNG";
 import PROJECT_IMG_2 from "../assets/images/project2.PNG";
+import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_4";
 import ecom from "../assets/images/ecom.PNG";
 
 export const SKILLS_CATEGORY = [
@@ -114,6 +115,29 @@ export const PROJECTS = [
     githubUrl: "https://github.com/joshu1024/mern-ecommerce",
     featured: true,
     category: "Full Stack",
+  },
+
+  {
+    id: 4,
+    title: "MERN Analytics Dashboard",
+    description:
+      "A full-stack analytics dashboard built with the MERN stack, currently ~90% complete. It features interactive data visualizations using Recharts, global state management with Redux Toolkit, and a responsive admin-style interface for monitoring key performance metrics.",
+    image: PROJECT_IMG_4,
+    tags: [
+      "MERN",
+      "Redux Toolkit",
+      "Recharts",
+      "Analytics Dashboard",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    liveUrl: "https://your-mern-analytics-dashboard.vercel.app/",
+    githubUrl: "https://github.com/joshu1024/mern-analytics-dashboard",
+    featured: true,
+    category: "Full Stack",
+    status: "In Progress (90%)",
   },
 ];
 
