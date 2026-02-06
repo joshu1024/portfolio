@@ -121,7 +121,7 @@ export const PROJECTS = [
     id: 4,
     title: "MERN Analytics Dashboard",
     description:
-      "A full-stack analytics dashboard built with the MERN stack, currently ~90% complete. It features interactive data visualizations using Recharts, global state management with Redux Toolkit, and a responsive admin-style interface for monitoring key performance metrics.",
+      "A production-style full-stack analytics dashboard built with the MERN stack. It features API-driven data visualizations using Recharts, predictable global state management with Redux Toolkit, and a responsive admin interface for monitoring key business metrics. Deployed with Vercel (frontend) and Railway (backend).",
     image: PROJECT_IMG_4,
     tags: [
       "MERN",
@@ -132,12 +132,13 @@ export const PROJECTS = [
       "Node.js",
       "Express",
       "MongoDB",
+      "Vercel",
+      "Railway",
     ],
-    liveUrl: "https://your-mern-analytics-dashboard.vercel.app/",
-    githubUrl: "https://github.com/joshu1024/mern-analytics-dashboard",
+    liveUrl: "https://dashboard-mern-tau.vercel.app/login",
+    githubUrl: "https://github.com/joshu1024/Analytics-Dashboard---MERN",
     featured: true,
     category: "Full Stack",
-    status: "In Progress (90%)",
   },
 ];
 
