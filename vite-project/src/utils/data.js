@@ -135,7 +135,7 @@ export const PROJECTS = [
       "Vercel",
       "Railway",
     ],
-    liveUrl: "https://dashboard-mern-tau.vercel.app/login",
+    liveUrl: "https://dashboard-mern-tau.vercel.app",
     githubUrl: "https://github.com/joshu1024/Analytics-Dashboard---MERN",
     featured: true,
     category: "Full Stack",
