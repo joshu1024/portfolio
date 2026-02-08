@@ -112,7 +112,7 @@ export const PROJECTS = [
     liveUrl:
       "https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/",
     githubUrl: "https://github.com/joshu1024/mern-ecommerce",
-    featured: fa,
+    featured: true,
     category: "Full Stack",
   },
   {
