@@ -112,7 +112,7 @@ export const PROJECTS = [
     liveUrl:
       "https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/",
     githubUrl: "https://github.com/joshu1024/mern-ecommerce",
-    featured: true,
+    featured: fa,
     category: "Full Stack",
   },
   {
@@ -124,7 +124,7 @@ export const PROJECTS = [
     tags: ["MERN", "ClipDrop", "AI", "React", "Node.js"],
     liveUrl: "https://ai-text-to-image-six.vercel.app/",
     githubUrl: "https://github.com/joshu1024/AI-Text-to-Image-",
-    featured: true,
+    featured: false,
     category: "Full Stack",
   },
   {
@@ -136,7 +136,7 @@ export const PROJECTS = [
     tags: ["MERN", "AI", "ClipDrop", "React", "Node.js"],
     liveUrl: "https://bg-remover-xi-brown.vercel.app/",
     githubUrl: "https://github.com/joshu1024/bg-remover",
-    featured: true,
+    featured: false,
     category: "Full Stack",
   },
 ];
