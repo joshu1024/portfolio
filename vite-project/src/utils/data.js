@@ -33,7 +33,7 @@ export const SKILLS_CATEGORY = [
       { name: "Tailwind CSS", level: 80, color: "bg-cyan-500" },
       { name: "CSS", level: 85, color: "bg-pink-500" },
       { name: "HTML", level: 90, color: "bg-pink-500" },
-      { name: "Redux ToolKit", level: 80, color: "bg-cyan-500" },
+      { name: "Redux ToolKit", level: 85, color: "bg-cyan-500" },
       { name: "Framer Motion", level: 70, color: "bg-pink-500" },
       { name: "Typescript", level: 70, color: "bg-pink-600" },
     ],
@@ -45,8 +45,8 @@ export const SKILLS_CATEGORY = [
     skills: [
       { name: "Node.js", level: 80, color: "bg-green-500" },
       { name: "Express.js", level: 80, color: "bg-gray-700" },
-      { name: "Typescript", level: 70, color: "bg-pink-600" },
-      { name: "REST APIs", level: 75, color: "bg-orange-500" },
+      { name: "Typescript", level: 75, color: "bg-pink-600" },
+      { name: "REST APIs", level: 80, color: "bg-orange-500" },
     ],
   },
   {
