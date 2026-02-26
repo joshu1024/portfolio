@@ -55,7 +55,7 @@ export const SKILLS_CATEGORY = [
     description: "Managing and optimizing data storage",
     skills: [
       { name: "MongoDB", level: 88, color: "bg-green-600" },
-      { name: "PostGreSQL", level: 65, color: "bg-blue-700" },
+      { name: "PostGreSQL", level: 80, color: "bg-blue-700" },
     ],
   },
 ];
