@@ -62,12 +62,12 @@ export const SKILLS_CATEGORY = [
 
 export const TECH_STACK = [
   "Languages: JavaScript, Typescript",
-  "Styling: HTML5, CSS3",
+  "Styling:TailwindCss HTML5, CSS3",
 
   "Build Tools: Vite",
 ];
 export const STATS = [
-  { number: "2", label: "Projects Completed" },
+  { number: "4", label: "Projects Completed" },
   { number: "1", label: "Year Experience" },
 ];
 
