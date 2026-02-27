@@ -74,9 +74,9 @@ export const STATS = [
 export const PROJECTS = [
   {
     id: 4,
-    title: "MERN Analytics Dashboard",
+    title: "MERN Analytics Dashboard (TypeScript)",
     description:
-      "A production-style full-stack analytics dashboard built with the MERN stack and TypeScript. It features API-driven data visualizations using Recharts, predictable global state management with Redux Toolkit, and a responsive admin interface for monitoring key business metrics. Deployed with Vercel (frontend) and Railway (backend).",
+      "A production-style full-stack analytics dashboard built with the MERN stack and fully converted to TypeScript. Features typed Redux Toolkit state, API-driven data visualizations with Recharts, and a responsive admin interface. Deployed with Vercel (frontend) and Railway (backend).",
     image: PROJECT_IMG_4,
     tags: [
       "MERN",
