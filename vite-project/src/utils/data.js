@@ -80,6 +80,7 @@ export const PROJECTS = [
     image: PROJECT_IMG_4,
     tags: [
       "MERN",
+      "TypeScript",
       "Redux Toolkit",
       "Recharts",
       "Analytics Dashboard",
