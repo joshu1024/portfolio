@@ -35,7 +35,7 @@ export const SKILLS_CATEGORY = [
       { name: "HTML", level: 90, color: "bg-pink-500" },
       { name: "Redux ToolKit", level: 85, color: "bg-cyan-500" },
       { name: "Framer Motion", level: 70, color: "bg-pink-500" },
-      { name: "Typescript", level: 70, color: "bg-pink-600" },
+      { name: "Typescript", level: 75, color: "bg-pink-600" },
     ],
   },
   {
@@ -61,7 +61,7 @@ export const SKILLS_CATEGORY = [
 ];
 
 export const TECH_STACK = [
-  "Languages: JavaScript",
+  "Languages: JavaScript, Typescript",
   "Styling: HTML5, CSS3",
 
   "Build Tools: Vite",
