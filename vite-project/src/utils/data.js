@@ -50,7 +50,7 @@ export const SKILLS_CATEGORY = [
     skills: [
       { name: "MongoDB", level: 88, color: "bg-green-600" },
       { name: "PostGreSQL", level: 80, color: "bg-blue-700" },
-      { name: "Prisma", level: 70, color: "bg-brown-700" },
+      { name: "Prisma", level: 70, color: "bg-pink-700" },
     ],
   },
 ];
