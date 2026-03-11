@@ -93,16 +93,17 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "MERN E-Commerce App",
+    title: "Full-Stack E-Commerce App",
     description:
-      "A full-stack E-Commerce application built with the MERN stack, featuring secure authentication, product management, cart and checkout flow, PayPal integration, and an admin dashboard for a complete online shopping experience.",
+      "A full-stack E-Commerce application originally built with MongoDB, now migrated to PostgreSQL using Prisma ORM. Includes secure authentication, product management, cart and checkout flow, PayPal integration, and an admin dashboard for a complete online shopping experience.",
     image: ecom,
     tags: [
-      "MERN",
       "React",
       "Node.js",
       "Express",
       "MongoDB",
+      "PostgreSQL",
+      "Prisma",
       "Redux Toolkit",
       "PayPal",
     ],
