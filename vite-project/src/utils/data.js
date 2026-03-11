@@ -101,7 +101,6 @@ export const PROJECTS = [
       "React",
       "Node.js",
       "Express",
-      "MongoDB",
       "PostgreSQL",
       "Prisma",
       "Redux Toolkit",
