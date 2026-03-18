@@ -120,7 +120,15 @@ export const PROJECTS = [
     description:
       "An AI-powered application that extracts and converts text to image using ClipDrop and machine learning, built with the MERN stack.",
     image: PROJECT_IMG_1,
-    tags: ["MERN", "ClipDrop", "AI", "React", "Node.js", "Framer Motion"],
+    tags: [
+      "MERN",
+      "ClipDrop",
+      "AI",
+      "React",
+      "Node.js",
+      "Framer Motion",
+      "Vercel",
+    ],
     liveUrl: "https://ai-text-to-image-six.vercel.app/",
     githubUrl: "https://github.com/joshu1024/AI-Text-to-Image-",
     featured: false,
@@ -132,7 +140,15 @@ export const PROJECTS = [
     description:
       "A MERN-based web app that uses AI to intelligently remove backgrounds from images, enabling seamless editing and exporting.",
     image: PROJECT_IMG_2,
-    tags: ["MERN", "AI", "ClipDrop", "React", "Node.js", "Framer Motion"],
+    tags: [
+      "MERN",
+      "AI",
+      "ClipDrop",
+      "React",
+      "Node.js",
+      "Framer Motion",
+      "Vercel",
+    ],
     liveUrl: "https://bg-remover-xi-brown.vercel.app/",
     githubUrl: "https://github.com/joshu1024/bg-remover",
     featured: false,
