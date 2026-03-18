@@ -105,6 +105,8 @@ export const PROJECTS = [
       "Prisma",
       "Redux Toolkit",
       "PayPal",
+      "Vercel",
+      "Render",
     ],
     liveUrl:
       "https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/",
