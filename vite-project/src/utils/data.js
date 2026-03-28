@@ -71,7 +71,7 @@ export const PROJECTS = [
     id: 4,
     title: "MERN Analytics Dashboard (TypeScript)",
     description:
-      "A production-style full-stack analytics dashboard built with the MERN stack and fully converted to TypeScript. Features typed Redux Toolkit state, API-driven data visualizations with Recharts, and a responsive admin interface. Deployed with Vercel (frontend) and Railway (backend).",
+      "Built a full-stack analytics dashboard using the MERN stack, fully migrated to TypeScript for improved type safety and maintainability. Implemented centralized state management with Redux Toolkit and developed dynamic, API-driven data visualizations using Recharts. Designed a responsive, role-based admin interface to monitor key metrics and business insights. Deployed using Vercel (frontend) and Railway (backend).",
     image: PROJECT_IMG_4,
     tags: [
       "MERN",
@@ -95,7 +95,7 @@ export const PROJECTS = [
     id: 3,
     title: "Full-Stack E-Commerce App",
     description:
-      "A full-stack E-Commerce application originally built with MongoDB, now migrated to PostgreSQL using Prisma ORM. Includes secure authentication, product management, cart and checkout flow, PayPal integration, and an admin dashboard for a complete online shopping experience.",
+      "Developed a full-stack e-commerce platform, migrating the database from MongoDB to PostgreSQL using Prisma ORM to improve data consistency and scalability. Implemented secure authentication, product and inventory management, and a complete cart and checkout workflow with PayPal integration. Built a role-based admin dashboard for managing products, orders, and users, delivering a production-ready online shopping system.",
     image: ecom,
     tags: [
       "React",
@@ -118,7 +118,7 @@ export const PROJECTS = [
     id: 1,
     title: "AI Text to Image Generator",
     description:
-      "An AI-powered application that extracts and converts text to image using ClipDrop and machine learning, built with the MERN stack.",
+      "Built an AI-powered image generation application using the MERN stack, integrating the ClipDrop API to convert text prompts into high-quality images. Implemented efficient API handling, responsive UI rendering, and optimized request flows to deliver a smooth real-time user experience.",
     image: PROJECT_IMG_1,
     tags: [
       "MERN",
@@ -138,7 +138,7 @@ export const PROJECTS = [
     id: 2,
     title: "AI Image Background Remover",
     description:
-      "A MERN-based web app that uses AI to intelligently remove backgrounds from images, enabling seamless editing and exporting.",
+      "A MERN stack–based web application that leverages AI-driven image processing techniques to perform automated background removal, enabling precise editing workflows and high-quality export of processed images..",
     image: PROJECT_IMG_2,
     tags: [
       "MERN",
