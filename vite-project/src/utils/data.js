@@ -95,7 +95,7 @@ export const PROJECTS = [
     id: 3,
     title: "Full-Stack E-Commerce App",
     description:
-      "Developed a full-stack e-commerce platform, migrating the database from MongoDB to PostgreSQL using Prisma ORM to improve data consistency and scalability. Implemented secure authentication, product and inventory management, and a complete cart and checkout workflow with PayPal integration. Built a role-based admin dashboard for managing products, orders, and users, delivering a production-ready online shopping system.",
+      "Built a full-stack e-commerce platform enabling users to browse products, manage carts, and complete secure purchases. Migrated the database from MongoDB to PostgreSQL using Prisma ORM to improve data consistency, scalability, and query performance. Implemented secure authentication, product and inventory management, and a complete checkout workflow with PayPal integration. Developed a role-based admin dashboard to manage products, orders, and users, delivering a production-ready shopping system.",
     image: ecom,
     tags: [
       "React",
