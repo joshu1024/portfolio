@@ -71,7 +71,7 @@ export const PROJECTS = [
     id: 4,
     title: "MERN Analytics Dashboard (TypeScript)",
     description:
-      "Built a full-stack analytics dashboard using the MERN stack, fully migrated to TypeScript for improved type safety and maintainability. Implemented centralized state management with Redux Toolkit and developed dynamic, API-driven data visualizations using Recharts. Designed a responsive, role-based admin interface to monitor key metrics and business insights. Deployed using Vercel (frontend) and Railway (backend).",
+      "Built a full-stack analytics dashboard to help administrators monitor key business metrics and make data-driven decisions. Developed using the MERN stack and fully migrated to TypeScript to improve scalability, type safety, and long-term maintainability. Implemented centralized state management with Redux Toolkit and created dynamic, API-driven data visualizations using Recharts. Designed a responsive, role-based admin interface for secure access and efficient data monitoring. Deployed the frontend on Vercel and the backend on Railway for reliable performance and accessibility.",
     image: PROJECT_IMG_4,
     tags: [
       "MERN",
