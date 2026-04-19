@@ -85,15 +85,13 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
           <h3 className="text-xl font-medium mb-3 group-hover:text-blue-500 transition-colors">
             {project.title}
           </h3>
-          <ul
-            className={`text-sm leading-relaxed mb-4 space-y-2 list-disc pl-5 ${
+          <p
+            className={`text-sm leading-relaxed mb-4 ${
               isDarkMode ? "text-gray-400" : "text-gray-600"
             }`}
           >
-            {project.description.map((point, i) => (
-              <li key={i}>{point}</li>
-            ))}
-          </ul>
+            {project.description}
+          </p>
           <div className="flex flex-wrap gap-2">
             {project.tags.map((tag, tagIndex) => (
               <span
