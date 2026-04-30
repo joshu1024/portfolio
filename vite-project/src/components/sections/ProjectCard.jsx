@@ -81,17 +81,21 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
             </motion.a>
           </motion.div>
         </div>
-        <div className="p-6">
+        <div className="p-6 flex flex-col h-[370px]">
           <h3 className="text-xl font-medium mb-3 group-hover:text-blue-500 transition-colors">
             {project.title}
           </h3>
-          <p
-            className={`text-sm leading-relaxed mb-4 ${
-              isDarkMode ? "text-gray-400" : "text-gray-600"
-            }`}
-          >
-            {project.description}
-          </p>
+          <div className="flex-grow overflow-y-auto pr-2">
+            <ul
+              className={`text-sm leading-relaxed list-disc pl-5 space-y-2 ${
+                isDarkMode ? "text-gray-400" : "text-gray-600"
+              }`}
+            >
+              {project.description.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
           <div className="flex flex-wrap gap-2">
             {project.tags.map((tag, tagIndex) => (
               <span

@@ -70,8 +70,14 @@ export const PROJECTS = [
   {
     id: 4,
     title: "MERN Analytics Dashboard (TypeScript)",
-    description:
-      "Built a full-stack analytics dashboard to help administrators monitor key business metrics and make data-driven decisions. Developed using the MERN stack and fully migrated to TypeScript to improve scalability, type safety, and long-term maintainability. Implemented centralized state management with Redux Toolkit and created dynamic, API-driven data visualizations using Recharts. Designed a responsive, role-based admin interface for secure access and efficient data monitoring. Deployed the frontend on Vercel and the backend on Railway for reliable performance and accessibility.",
+    description: [
+      "Built a role-based admin dashboard with secure JWT authentication using httpOnly cookies, reducing XSS token exposure risk to near zero",
+      "Migrated the entire codebase to TypeScript, decreasing runtime errors and improving development speed across 10+ Redux slices, 20+ React components, and 15+ API endpoints",
+      "Developed 5+ data visualizations using Recharts powered by MongoDB aggregation pipelines, enabling real-time insights across 50K+ records (retention, revenue, user demographics)",
+      "Implemented server-side pagination for users, companies, and events, reducing initial load time by ~40% and improving perceived UI responsiveness with optimistic updates",
+      "Optimized API performance with aggregation and indexing, reducing query response times by ~30%",
+      "Deployed via Vercel (frontend) and Render (backend) with environment-based configs and production-grade cookie security, achieving 99.9% uptime in testing",
+    ],
     image: PROJECT_IMG_4,
     tags: [
       "MERN",
@@ -94,8 +100,12 @@ export const PROJECTS = [
   {
     id: 3,
     title: "Full-Stack E-Commerce App",
-    description:
-      "Built a full-stack e-commerce platform enabling users to browse products, manage carts, and complete secure purchases. Migrated the database from MongoDB to PostgreSQL using Prisma ORM to improve data consistency, scalability, and query performance. Implemented secure authentication, product and inventory management, and a complete checkout workflow with PayPal integration. Developed a role-based admin dashboard to manage products, orders, and users, delivering a production-ready shopping system.",
+    description: [
+      "Built a full-stack e-commerce platform for browsing, carts, and secure checkout",
+      "Migrated database from MongoDB to PostgreSQL using Prisma",
+      "Implemented authentication and PayPal checkout",
+      "Developed role-based admin dashboard for managing products and orders",
+    ],
     image: ecom,
     tags: [
       "React",
@@ -117,8 +127,12 @@ export const PROJECTS = [
   {
     id: 1,
     title: "AI Text to Image Generator",
-    description:
-      "Built an AI-powered image generation application using the MERN stack, integrating the ClipDrop API to convert text prompts into high-quality images. Implemented efficient API handling, responsive UI rendering, and optimized request flows to deliver a smooth real-time user experience.",
+    description: [
+      "Built an AI-powered image generation app using the MERN stack with ClipDrop API integration",
+      "Converted user text prompts into high-quality images with optimized API request handling",
+      "Designed a responsive UI with real-time rendering for smooth user interactions",
+      "Optimized request flow and loading states to improve perceived performance",
+    ],
     image: PROJECT_IMG_1,
     tags: [
       "MERN",
@@ -137,8 +151,12 @@ export const PROJECTS = [
   {
     id: 2,
     title: "AI Image Background Remover",
-    description:
-      "A MERN stack–based web application that leverages AI-driven image processing techniques to perform automated background removal, enabling precise editing workflows and high-quality export of processed images..",
+    description: [
+      "Developed a MERN stack application for AI-based background removal using image processing APIs",
+      "Implemented automated background extraction for precise and efficient image editing",
+      "Enabled high-quality image export with optimized processing workflows",
+      "Built a clean, responsive UI for seamless upload, processing, and download experience",
+    ],
     image: PROJECT_IMG_2,
     tags: [
       "MERN",
