@@ -72,11 +72,9 @@ export const PROJECTS = [
     title: "MERN Analytics Dashboard (TypeScript)",
     description: [
       "Built a role-based admin dashboard with secure JWT authentication using httpOnly cookies, reducing XSS token exposure risk to near zero",
-      "Migrated the entire codebase to TypeScript, decreasing runtime errors and improving development speed across 10+ Redux slices, 20+ React components, and 15+ API endpoints",
-      "Developed 5+ data visualizations using Recharts powered by MongoDB aggregation pipelines, enabling real-time insights across 50K+ records (retention, revenue, user demographics)",
-      "Implemented server-side pagination for users, companies, and events, reducing initial load time by ~40% and improving perceived UI responsiveness with optimistic updates",
-      "Optimized API performance with aggregation and indexing, reducing query response times by ~30%",
-      "Deployed via Vercel (frontend) and Render (backend) with environment-based configs and production-grade cookie security, achieving 99.9% uptime in testing",
+      "Migrated the entire codebase to TypeScript, reducing runtime errors and improving development velocity across 10+ Redux slices, 20+ React components, and 15+ API endpoints",
+      "Developed 5+ data visualizations using Recharts with MongoDB aggregation pipelines, enabling real-time insights across 50K+ records (retention, revenue, user demographics))",
+      "Reduced initial load time by ~40% by implementing server-side pagination and optimized queries, improving responsiveness with optimistic UI updates",
     ],
     image: PROJECT_IMG_4,
     tags: [
