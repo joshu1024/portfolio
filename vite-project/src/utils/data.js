@@ -14,6 +14,7 @@ import {
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 import EKB from "../assets/images/EKB.PNG";
+import PROJECT_IMG_1 from "../assets/images/project1.PNG";
 import PROJECT_IMG_2 from "../assets/images/project2.PNG";
 import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_4.PNG";
 import ecom from "../assets/images/ecom.PNG";
