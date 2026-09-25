@@ -92,36 +92,6 @@ export const STATS = [
 
 export const PROJECTS = [
   {
-    id: 6,
-    title: "Apply-AI — Autonomous Job Application Agent",
-    description: [
-      "Autonomous AI agent that researches companies, identifies skill gaps, and drafts tailored cover letters — in progress",
-      "ReAct loop — model decides which tool to call next; code enforces guardrails (max iterations, repeated-call detection, cost budget)",
-      "Multi-step tool execution with retries, exponential backoff, and Zod argument validation",
-      "Full trace logging — every thought, tool call, and observation saved to the database",
-    ],
-    image: EKB, // replace with apply-ai screenshot when available
-    tags: [
-      "TypeScript",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "Prisma",
-      "Groq",
-      "Cohere",
-      "BullMQ",
-      "WebSockets",
-      "Mastra",
-      "React",
-      "shadcn/ui",
-    ],
-    liveUrl: "#", // update when deployed
-    githubUrl: "https://github.com/joshu1024/apply-ai",
-    featured: true,
-    category: "AI Agent",
-    badge: "🔄 In Progress",
-  },
-  {
     id: 5,
     title: "Enterprise AI Knowledge Base — RAG SaaS",
     description: [
@@ -130,7 +100,7 @@ export const PROJECTS = [
       "51 automated tests (19 backend + 32 frontend) with GitHub Actions CI — green on every push",
       "Single org per email domain — company users auto-join same org, public email domains get personal orgs",
     ],
-    image: PROJECT_IMG_4, // replace with enterprise-kb screenshot when available
+    image: EKB, // replace with enterprise-kb screenshot when available
     tags: [
       "TypeScript",
       "Node.js",
